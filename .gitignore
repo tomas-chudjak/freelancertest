@@ -1,6 +1,6 @@
 vendor/*
 restapi/*
-!restapi/configure_kviky.go
+!restapi/configure_api.go
 models/*
 cmd/
 ./main.exe

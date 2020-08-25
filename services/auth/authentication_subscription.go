@@ -1,8 +1,6 @@
-package auth_data
+package auth
 
-import (
-	"app/models"
-)
+import "freelancertest/models"
 
 // AuthenticationSubscriptionService is an implementation of service working through LDAP
 type AuthenticationSubscriptionService struct {
