@@ -1,0 +1,7 @@
+vendor/*
+restapi/*
+!restapi/configure_kviky.go
+models/*
+cmd/
+./main.exe
+./main.ex*
