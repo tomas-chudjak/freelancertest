@@ -12,14 +12,14 @@ git clone https://github.com/tomas-chudjak/freelancertest .
 swagger generate server -A api -f ./swagger.yaml
 ```
 
-2. Build main package
-```
-go build ./cmd/api-server/main.go
-```
-
-3. Get dependencies
+2. Get dependencies
 ```
 go get -u -f ./...
+```
+
+3. Build main package
+```
+go build ./cmd/api-server/main.go
 ```
 
 4. Run package

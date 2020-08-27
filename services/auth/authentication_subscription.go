@@ -2,16 +2,16 @@ package auth
 
 import "freelancertest/models"
 
-// AuthenticationSubscriptionService is an implementation of service working through LDAP
+// AuthenticationSubscriptionService is an implementation of service working with the data
 type AuthenticationSubscriptionService struct {
-	// repositories.LdapRepository
+
 }
 
 // NewAuthenticationSubscriptionService constructor
 func NewAuthenticationSubscriptionService() *AuthenticationSubscriptionService {
 
 	return &AuthenticationSubscriptionService{
-		// LdapRepository: services.CreateRepository(ctx, "subscriptionData.AuthData.AuthenticationSubscription"),
+
 	}
 }
 
